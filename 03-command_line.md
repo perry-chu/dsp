@@ -45,9 +45,12 @@ What do the following commands do:
 `ls -Glp`  
 
 > > ls : list files in current directory
-> > ls -a : list all files in current directory (include hidden)
+ls -a : list all files in current directory (include hidden)
+
 > > ls -l : list files w/ long-form details (permissions, create date, size)
+
 > > ls -lh : list files w/ long-form details + human readable size (e.g. kb / mb)
+
 > > ls -lah : list all files (include hidden) w/ long form details + human readable size
 > > ls -t : list files sorted by last modified
 > > ls -Glp : list files w/ long form details, exclude group name, add / after directory names
