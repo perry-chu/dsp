@@ -21,14 +21,23 @@ Here's a list of items with which you should be familiar:
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
 > > pwd : show current working directory path
+
 > > mkdir $name: create a directory
+
 > > rm $name : delete a directory or file (-r recursive, -f force)
+
 > > touch $name: create a file (if not existing) or update access / modified dates (if existing)
+
 > > mv $currentname $newname: rename a file
+
 > > ls -a : lists all files (including hidden)
+
 > > ls -d .?* : lists only hidden files & directories
+
 > > mv $source $dest: move a file
+
 > > cp $source $dest: copy a file
+
 > > cd $directory : change current working directory
 
 ---
@@ -44,15 +53,18 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > ls : list files in current directory
-ls -a : list all files in current directory (include hidden)
+>> ls : list files in current directory
+
+>> ls -a : list all files in current directory (include hidden)
 
 > > ls -l : list files w/ long-form details (permissions, create date, size)
 
 > > ls -lh : list files w/ long-form details + human readable size (e.g. kb / mb)
 
 > > ls -lah : list all files (include hidden) w/ long form details + human readable size
+
 > > ls -t : list files sorted by last modified
+
 > > ls -Glp : list files w/ long form details, exclude group name, add / after directory names
 
 ---
@@ -62,10 +74,15 @@ ls -a : list all files in current directory (include hidden)
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 > > ls -R : also runs ls on subdirectories
+
 > > ls -d : only list directories
+
 > > ls -m : list as a single comma-separated line
+
 > > ls -r : reverse order
+
 > > ls -X : sort by entry extension
+
 > > ls -S : sort by file size
 
 ---
