@@ -72,7 +72,14 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > It re-runs a command for each of the arguments passed in on stdin.  
+
+```bash
+#moves all files to new sub directory
+read -p "What is the new sub-directory name? " newdirectory
+mkdir $newdirectory
+ls *.* | xargs -I{} mv {} ./$newdirectory/{}
+```
 
  
 
