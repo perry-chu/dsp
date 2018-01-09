@@ -95,7 +95,9 @@ P(identical|twin) = 1 * (1/300) / (1/300 + 1/125)
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> Frequentist treats probability as a description of population, so P(X) = 60% means X is true for 60 percent of the population.  Bayesian treats probability as a degree of belief, so P(X) = 60% means we are 60% certain that X is true. 
+>> Frequentist treats probability as a description of population, so P(X) = 60% means X is true for 60 percent of the population.  Bayesian treats probability as a degree of belief, so P(X) = 60% means we are 60% certain that X is true.  
+https://www.quora.com/What-is-the-difference-between-Bayesian-and-frequentist-statisticians  
+https://www.quora.com/What-is-a-confidence-interval-in-laymans-terms/answer/Michael-Hochster  
 
 ---
 
